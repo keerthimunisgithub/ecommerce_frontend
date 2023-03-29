@@ -23,10 +23,10 @@ const Header = () => {
           <h2><Link className='text-white'>MukeeKart</Link></h2>
         </div>
         <div className="col-5">
-        <div class="input-group">
-  <input type="text" class="form-control py-2" 
+        <div className="input-group">
+  <input type="text" className="form-control py-2" 
   placeholder="Search Product here" aria-label="Search Product here" aria-describedby="basic-addon2"/>
-  <span class="input-group-text p-3" id="basic-addon2"><BsSearch className='fs-6'/></span>
+  <span className="input-group-text p-3" id="basic-addon2"><BsSearch className='fs-6'/></span>
 </div>
         </div>
         <div className="col-5">
@@ -91,7 +91,7 @@ Log in <br/> My Account</p>
             <div className='menu-links'>
               <div className="d-flex align-items-center gap-15">
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/">Our Store</NavLink>
+                <NavLink to="/store">Our Store</NavLink>
                 <NavLink to="/">Blogs</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
               </div>

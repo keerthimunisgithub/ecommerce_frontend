@@ -205,7 +205,7 @@ const Home = () => {
   <div className="row">
     <div className="col-3">
       <div className="famous-card position-relative"> 
-      <img src="images/famous-04.jpg" alt="famous" />
+      <img src="images/watch_combo.png" className='img-fluid' alt="famous" />
       <div className="famous-content position-absolute">
       <h5>Big screen</h5>
       <h6>Smart Watch Series 7</h6>
@@ -215,31 +215,31 @@ const Home = () => {
     </div>
     <div className="col-3">
       <div className="famous-card position-relative"> 
-      <img src="images/famous-03.png" alt="famous" />
+      <img src="images/famous-03.png" className='img-fluid' alt="famous" />
       <div className="famous-content position-absolute">
-      <h5>Big screen</h5>
-      <h6>Smart Watch Series 7</h6>
-      <p>From $399 $16.62/mo. for 24 mo.*</p>
+      <h5 className='text-dark'>Smartphones</h5>
+      <h6 className='text-dark'>Smartphone 13 Pro.</h6>
+      <p className='text-dark'>Now in Blue.From $999.00 or $41.62/mo. for 24 mo. Footnote*</p>
       </div>
       </div>
     </div>
     <div className="col-3">
       <div className="famous-card position-relative"> 
-      <img src="images/speakers.jpg" alt="famous" />
+      <img src="images/speakers.jpg" className='img-fluid' alt="famous" />
       <div className="famous-content position-absolute">
-      <h5>Big screen</h5>
-      <h6>Smart Watch Series 7</h6>
-      <p>From $399 $16.62/mo. for 24 mo.*</p>
+      <h5 className='text-dark'>Home speakers</h5>
+      <h6 className='text-dark'>Room-filling Sound</h6>
+      <p className='text-dark'>From $399 $16.62/mo. for 24 mo.*</p>
       </div>
       </div>
     </div>
     <div className="col-3">
       <div className="famous-card position-relative"> 
-      <img src="images/famous-03.png" alt="famous" />
+      <img src="images/laptop-01.png" className='img-fluid' alt="famous" />
       <div className="famous-content position-absolute">
-      <h5>Big screen</h5>
-      <h6>Smart Watch Series 7</h6>
-      <p>From $399 $16.62/mo. for 24 mo.*</p>
+      <h5 className='text-dark'>Studio Display</h5>
+      <h6 className='text-dark'>600 nits of brightness</h6>
+      <p className='text-dark'>27-inch 5k Retina Display</p>
       </div>
       </div>
     </div>
@@ -256,7 +256,9 @@ const Home = () => {
       <div className="row">
         <SpecialProduct/>
         <SpecialProduct/>
+        <SpecialProduct/>
         <SpecialProduct/> 
+
       </div>
     </div>
      </section>
@@ -267,8 +269,7 @@ const Home = () => {
             <h3 className="section-heading">Our Popular Products</h3>
           </div>
         </div>
-        <div className="row">
-          
+        <div className="row">        
         <ProductCard/>
         <ProductCard/>
         <ProductCard/>
