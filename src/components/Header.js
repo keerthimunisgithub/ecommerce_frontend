@@ -11,7 +11,7 @@ const Header = () => {
       <p className='text-white mb-0'>Free shipping Over $100 & Free returns</p>
     </div>
     <div className="col-6"> <p className='text-end text-white'>
-      Hotline <a className='text-white' href="tel: +44 7498779200">+44 7498779200 </a></p></div>  
+      Hotline: <a className='text-white' href="tel: +44 7498779200">+44 7498779200 </a></p></div>  
     </div>
     </div>
 
@@ -32,7 +32,7 @@ const Header = () => {
         <div className="col-5">
           <div className="header-upper-links d-flex align-items-center justify-content-between">
           <div>
-          <Link className='d-flex align-items-center gap-10 text-white'>
+          <Link to="/compare-product" className='d-flex align-items-center gap-10 text-white'>
 
             <img src="images/compare.svg" alt="compare"></img>
             <p className='mb-0'>
@@ -40,7 +40,7 @@ const Header = () => {
           </Link>
           </div>
           <div>
-          <Link className='d-flex align-items-center gap-10 text-white'>
+          <Link to="/wishlist" className='d-flex align-items-center gap-10 text-white'>
 
             <img src="images/wishlist.svg" alt="wishlist"></img>
             <p className='mb-0'>
@@ -48,7 +48,7 @@ Favourite <br/> wishlist  </p>
           </Link>
           </div>
           <div>
-          <Link className='d-flex align-items-center gap-10 text-white'>
+          <Link to="/login" className='d-flex align-items-center gap-10 text-white'>
 
             <img src="images/user.svg" alt="user"></img>
             <p className='mb-0'>
@@ -56,7 +56,7 @@ Log in <br/> My Account</p>
           </Link>
           </div>
           <div>
-            <Link className='d-flex align-items-center gap-10 text-white'>
+            <Link to="/cart" className='d-flex align-items-center gap-10 text-white'>
             <img src="images/cart.svg" alt="cart"></img>
            <div className="d-flex flex-column gap-10">
             <span className="badge bg-white text-dark">0</span>
@@ -92,7 +92,7 @@ Log in <br/> My Account</p>
               <div className="d-flex align-items-center gap-15">
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/store">Our Store</NavLink>
-                <NavLink to="/">Blogs</NavLink>
+                <NavLink to="/blogs">Blogs</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
               </div>
             </div>
