@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
             </h5>
             <p className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Maecenas congue, arcu a ornare dictum, </p>
-            <Link to="/" className='button'>Read More</Link>
+            <Link to="/blog/:id" className='button'>Read More</Link>
         </div>
     </div>
     </>

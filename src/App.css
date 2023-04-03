@@ -258,6 +258,21 @@ footer .input-group-text{
   line-height: 22px; 
   color: var(--color-777777);
 }
+.single-blog-card a{
+  font-size: 18px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
+.single-blog-card h3{
+font-size: 24px;
+font-weight: 600;
+color:var(--color-131921);
+}
+.single-blog-card p{
+  font-size: 14px;
+  color:var(--color-777777);
+  }
+
 /* Blog Part ends here*/
 /* Product Card */
 .product-card{
@@ -562,3 +577,9 @@ color: var(--color-777777);
   color: white;
 }
 /* Auth Card Ends*/
+/* Policy pages */
+.policy{
+  background-color: white;
+  padding: 30px;
+}
+/* Policy Pages Ends */
