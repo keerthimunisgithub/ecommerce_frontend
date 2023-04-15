@@ -33,7 +33,8 @@ const Contact = () => {
             <div> 
              <textarea name="" id="" cols="30" className='w-100 form-control' rows="4" placeholder='Comments'></textarea>
             </div>
-            <div className='button border-0'>Submit</div>
+            <div>
+            <button className='button border-0'>Submit Review</button></div>
           </form>
         </div>
         <div>
