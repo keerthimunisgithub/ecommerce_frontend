@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="col-12">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.111021593754!2d-1.5416116846978931!3d53.80530814793557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795c057a4850d3%3A0xb36298a2d99d9a0c!2sLovell%20Park%20Hill!5e0!3m2!1sen!2suk!4v1680095638446!5m2!1sen!2suk" 
           width="600" height="450" className='border-0 w-100'
-           allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           allowfullscreen="" title='img' loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div className="col-12 mt-5">
         <div className="contact-inner-wrapper d-flex justify-content-between">

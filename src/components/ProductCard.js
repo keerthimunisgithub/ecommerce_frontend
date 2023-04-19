@@ -13,16 +13,16 @@ const ProductCard = (props) => {
     let location = useLocation(); 
   return (
  <>
-    <div className={` ${location.pathname =="/store" ? `gr-${grid}` : "col-3"} `}>
-        <Link to=":id" className="product-card position-relative">
+    <div className={` ${location.pathname ==="/store" ? `gr-${grid}` : "col-3"} `}>
+        <Link to=":id" className="product-card position-relative" alt="">
             <div className="wishlist-icon position-absolute">
                 <button className='border-0 bg-transparent'>
                 <img src={wish} alt="wishlist" />
                 </button>
                 </div>
             <div className="product-image">
-                <img src={watch}  className='img-fluid' alt="product image" />
-                <img src={watch3} className='img-fluid'  alt="product image" />
+                <img src={watch}  className='img-fluid' alt="image3" />
+                <img src={watch3} className='img-fluid'  alt="productimage1" />
 
             </div>
             <div className="product-details">
@@ -49,7 +49,7 @@ const ProductCard = (props) => {
             </div>
         </Link>
         </div>
-        <div className={` ${location.pathname =="/store" ? `gr-${grid}` : "col-3"} `}>
+        <div className={` ${location.pathname ==="/store" ? `gr-${grid}` : "col-3"} `}>
         <Link className="product-card position-relative">
             <div className="wishlist-icon position-absolute">
                 <button className='border-0 bg-transparent'>
@@ -57,8 +57,8 @@ const ProductCard = (props) => {
                 </button>
                 </div>
             <div className="product-image">
-                <img src={watch}  className='img-fluid' alt="product image" />
-                <img src={watch3} className='img-fluid'  alt="product image" />
+                <img src={watch}  className='img-fluid' alt="productimage" />
+                <img src={watch3} className='img-fluid'  alt="pimage2" />
 
             </div>
             <div className="product-details">

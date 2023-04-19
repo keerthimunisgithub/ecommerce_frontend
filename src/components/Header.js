@@ -83,7 +83,7 @@ Log in <br/> My Account</p>
             <div className="dropdown">
   <button className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center "
   type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    <img src={menu}/>
+    <img src={menu} alt=""/>
     <span className='me-5 d-inline-block'>Shop Categories</span>
   </button>
   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
